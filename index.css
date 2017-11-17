@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+label {
+  font-size: 48px;
+}
+div {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 15%;
+  width: 70%;
+}
+input {
+  font-size: 48px;
+  width: 70%;
+  height: 15%;
+}
+input[name="StronglyAgree"] {
+  background-color: lime;
+}
+input[name="Agree"] {
+  background-color: palegreen;
+}
+input[name="DontCare"] {
+  background-color: yellow;
+}
+input[name="Opposed"] {
+  background-color: lightcoral;
+}
+input[name="StronglyOpposed"] {
+  background-color: red;
+}
